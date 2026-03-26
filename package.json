@@ -1,5 +1,5 @@
 {
-  "name": "ZiyOfficialBayle",
+  "name": "@BaileysZiyoffc",
   "version": "8.0.7",
   "description": "Websocket Whatsapp API for Node.js",
   "keywords": [
@@ -15,17 +15,16 @@
   "homepage": "https://github.com/ziy-offc/bailey",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ziy-offc/bailey.git"
+    "url": "git+ssh://git@github.com/ziy-offc/bailey.git"
   },
   "license": "MIT",
-  "author": "ZiyOfficial",
+  "author": "TimeVanAshVyr",
   "main": "./lib/index.js",
   "files": [
     "lib/*",
     "WAProto/*"
   ],
   "scripts": {
-    "start": "node index.js",
     "changelog:update": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "changelog:preview": "conventional-changelog -p angular -u",
     "changelog:last": "conventional-changelog -p angular -r 2",
@@ -37,46 +36,46 @@
     "test": "jest"
   },
   "dependencies": {
-    "@whiskeysockets/eslint-config": "https://github.com/whiskeysockets/eslint-config.git",
-    "@cacheable/node-cache": "latest",
+    "@whiskeysockets/eslint-config": "github:whiskeysockets/eslint-config",
+    "@cacheable/node-cache": "*",
     "gradient-string": "2.0.2",
-    "libsignal-xeuka": "https://github.com/ziy-offc/libs.git",
-    "moment-timezone": "latest",
-    "music-metadata": "latest",
-    "cache-manager": "latest",
-    "async-mutex": "latest",
-    "@hapi/boom": "latest",
+    "libsignal-xeuka": "github:ziy-offc/libs",
+    "moment-timezone": "*",
+    "music-metadata": "*",
+    "cache-manager": "*",
+    "async-mutex": "*",
+    "@hapi/boom": "*",
     "pbjs": "^0.0.14",
-    "protobufjs": "latest",
-    "lru-cache": "latest",
-    "readline": "latest",
-    "p-queue": "latest",
-    "lodash": "latest",
-    "figlet": "latest",
-    "axios": "latest",
-    "path": "latest",
-    "pino": "latest",
-    "ws": "latest",
-    "fs": "latest",
-    "os": "latest"
+    "protobufjs": "*",
+    "lru-cache": "*",
+    "readline": "*",
+    "p-queue": "*",
+    "lodash": "*",
+    "figlet": "*",
+    "axios": "*",
+    "path": "*",
+    "pino": "*",
+    "ws": "*",
+    "fs": "*",
+    "os": "*"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "latest",
-    "link-preview-js": "latest",
-    "protobufjs-cli": "latest",
-    "cache-manager": "latest",
-    "@types/jest": "latest",
-    "@types/node": "latest",
-    "release-it": "latest",
-    "@types/ws": "latest",
-    "eslint": "latest",
-    "jest": "latest",
-    "json": "latest",
-    "open": "latest"
+    "conventional-changelog-cli": "*",
+    "link-preview-js": "*",
+    "protobufjs-cli": "*",
+    "cache-manager": "*",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "release-it": "*",
+    "@types/ws": "*",
+    "eslint": "*",
+    "jest": "*",
+    "json": "*",
+    "open": "*"
   },
   "peerDependencies": {
-    "link-preview-js": "latest",
-    "audio-decode": "latest",
+    "link-preview-js": "*",
+    "audio-decode": "*",
     "jimp": ">=0.16.0"
   },
   "peerDependenciesMeta": {
