@@ -1,5 +1,5 @@
 {
-  "name": "@BaileysZiyoffc",
+  "name": "@ziyoffc",
   "version": "8.0.7",
   "description": "Websocket Whatsapp API for Node.js",
   "keywords": [
@@ -12,10 +12,10 @@
     "proto",
     "whatsapp-websocket"
   ],
-  "homepage": "https://github.com/ziy-offc/bailey",
+  "homepage": "https://github.com/TimeVan/Baileys",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ziy-offc/bailey.git"
+    "url": "git+ssh://git@github.com/TimeVan/Baileys.git"
   },
   "license": "MIT",
   "author": "TimeVanAshVyr",
@@ -39,7 +39,7 @@
     "@whiskeysockets/eslint-config": "github:whiskeysockets/eslint-config",
     "@cacheable/node-cache": "*",
     "gradient-string": "2.0.2",
-    "libsignal-xeuka": "github:ziy-offc/libs",
+    "libsignal-xeuka": "github:TimeVan/libs",
     "moment-timezone": "*",
     "music-metadata": "*",
     "cache-manager": "*",
@@ -97,6 +97,6 @@
     "lib": "lib"
   },
   "bugs": {
-    "url": "https://github.com/ziy-offc/bailey/issues"
+    "url": "https://github.com/TimeVan/Baileys/issues"
   }
 }
